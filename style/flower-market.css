@@ -8,8 +8,7 @@
   font-family: "Inter", sans-serif;
 }
 
-/* Global Utilities */
-body {
+body {                    /* global Utilities */
   background-color: #f5f8ff;
 }
 .flex {
@@ -238,5 +237,130 @@ nav ul a {
 }
 .form {
   justify-content: center;
+}
+footer {                 /* footer Section */
+  background-color: #fafbff;
+  padding: 50px 160px 0px 160px;
+  justify-content: space-between;
+  align-items: start;
+}
+.footer-logo {
+  max-width: 360px;
+}
+.footer-description {
+  margin-top: 16px;
+}
+.footer-links li,
+.footer-features li {
+  margin-bottom: 32px;
+  list-style: none;
+}
+.footer-links li a,
+.footer-features li a {
+  text-decoration: none;
+  color: #6b7280;
+}
+.social-media img {
+  margin-right: 24px;
+}
+
+@media screen and (max-width: 592px) {                /* responsive Media Queries */
+  .navbar,
+  .banner-title,
+  .banner-description,
+  .plants-description,
+  .card-section,
+  .plants-section {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+  }
+  .f-store,
+  .shop-now,
+  footer {
+    flex-direction: column;
+  }
+  .plants-section {
+    margin-left: 0px;
+  }
+  .navbar .hide,
+  .flower-lover .trusted-badge {
+    display: none;
+  }
+  .navbar {
+    margin-bottom: 28px;
+  }
+  .banner-title {
+    font-size: 1.5rem;
+  }
+  .banner-description {
+    font-size: 0.9rem;
+  }
+  .plants-details {
+    margin-top: 65px;
+  }
+  .plants-description br {
+    display: none;
+  }
+  .card-section {
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    padding: 0 10px;
+  }
+  .btg-primary {
+    width: 100%;
+  }
+  .flower-lover {
+    margin-top: 40px;
+  }
+  .flover-title {
+    font-size: 1.5rem;
+  }
+  .shop-now {
+    margin-top: 50px;
+  }
+  .one-img {
+    width: 367px;
+    height: 197px;
+    margin-top: 20px;
+  }
+  .one-img .zabo-name {
+    font-size: 1.25rem;
+    padding-top: 50px;
+  }
+  .one-img .zabo-btg {
+    font-size: 1rem;
+  }
+  .join-bunch {
+    width: 393px;
+    height: 275px;
+  }
+  .form {
+    flex-direction: row;
+    width: 321px;
+    margin: 0 auto;
+  }
+  .bunch-title {
+    font-size: 1.25rem;
+    padding-top: 110px;
+  }
+  .shop-now {
+    margin-bottom: 40px;
+  }
+  footer {
+    flex-wrap: wrap;
+    padding: 50px 20px;
+  }
+  .footer-links ul,
+  .footer-features ul {
+    padding-left: 0px;
+    margin-bottom: 0px;
+  }
+  .footer-description {
+    font-size: 1rem;
+  }
 }
 
