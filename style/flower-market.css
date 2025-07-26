@@ -111,4 +111,132 @@ nav ul a {
   color: white;
   font-weight: 600;
 }
+.flover-title {
+  font-size: 3.13rem;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 0px;
+}
+.flower-lover {
+  align-items: center;
+  margin-top: 221px;
+  position: relative;
+}
+.flower-store {
+  width: 100%;
+}
+.plants-section {
+  margin-left: 60px;
+}
+.plants-section ul li {
+  margin-top: 20px;
+}
+.trusted-badge {
+  position: absolute;
+  top: 2%;
+  left: 44%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+  width: 286px;
+  height: 286px;
+  object-fit: contain;
+  animation: spin 9s linear infinite;
+}
+@keyframes spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.latest-deals {
+  margin-top: 133px;
+}
+.bloom-plant,
+.ana-plant,
+.one-img {
+  background-repeat: no-repeat;
+  border-radius: 14px;
+  color: white;
+}
+.bloom-plant {
+  width: 367px;
+  height: 201px;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../assets/deal-bloom.png");
+}
+.ana-plant {
+  width: 367px;
+  height: 197px;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../assets/deal-ana.png");
+}
+.one-img {
+  width: 753px;
+  height: 423.13px;
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url("../assets/deal-zabo.png");
+  border-radius: 22px;
+}
+.shop-now {
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin: 120px 0;
+}
+.shop-now a {
+  color: white;
+}
+.bloom-name, .ana-name {
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding-top: 65px;
+  margin: 25px 0 20px;
+}
+.zabo-name {
+  font-size: 2.5rem;
+  font-weight: 700;
+  padding-top: 172px;
+  margin: 25px 0 20px;
+}
+.s-btg, .zabo-btg {
+  font-weight: 600;
+}
+.zabo-btg {
+  font-size: 1.75rem;
+}
+
+.join-bunch {
+  width: 100%;
+  height: 533px;
+  color: white;
+  text-align: center;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../assets/news-letter-bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bunch-title {
+  font-size: 3.1rem;
+  font-weight: 700;
+  padding-top: 200px;
+  margin-bottom: 23px;
+}
+.input {
+  width: 644px;
+  height: 50px;
+  background-color: white;
+  border: none;
+  padding-left: 20px;
+}
+.btn {
+  width: 186px;
+  height: 52px;
+  background-color: #e95a08;
+  color: white;
+  border: none;
+  font-weight: 600;
+}
+.form {
+  justify-content: center;
+}
 
